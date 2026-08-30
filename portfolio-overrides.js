@@ -32,6 +32,17 @@
 
   const addedWorks = [
     {
+      id: '2026829161630',
+      title: '梦中不羡仙 · 竹林 · 01',
+      place: '梦中不羡仙 · 竹林',
+      method: '场景人像',
+      idea: '以竹林、薄雾与人物近景形成清冷安静的氛围，突出人物神态与手中饰物。',
+      note: '作品集精选',
+      kind: '作品集',
+      orientation: 'landscape',
+      image: 'assets/portfolio-100/2026829161630.jpg'
+    },
+    {
       id: '20260824_free_template_golden_spark',
       title: '金光蝶影',
       place: '地点待补充',
