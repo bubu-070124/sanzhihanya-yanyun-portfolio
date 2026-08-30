@@ -31,6 +31,7 @@
   };
 
   const addedWorks = [
+    { id: '202682316625', title: '江南 · 荷叶 · 01', place: '江南', method: '场景人像', idea: '旋转为竖幅后，以荷叶、绿发与水面倒影构成清新的江南画面。', note: '作品集精选', kind: '作品集', orientation: 'portrait', image: 'assets/portfolio-100/202682316625.jpg' },
     { id: '2026827235543', title: '无明春山 · 赤月 · 01', place: '无明春山', method: '场景人像', idea: '以赤月与红黑造型构成强烈的暗色人物肖像。', note: '作品集精选', kind: '作品集', orientation: 'portrait', image: 'assets/portfolio-100/2026827235543.jpg' },
     { id: '2026827225016', title: '无明春山 · 赤焰 · 02', place: '无明春山', method: '场景人像', idea: '以俯拍角度、炽热光源和人物侧脸制造张力。', note: '作品集精选', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/2026827225016.jpg' },
     { id: '2026827232634', title: '无明春山 · 赤焰 · 03', place: '无明春山', method: '场景人像', idea: '用手部动作和面具细节收紧画面，强化人物情绪。', note: '作品集精选', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/2026827232634.jpg' },
