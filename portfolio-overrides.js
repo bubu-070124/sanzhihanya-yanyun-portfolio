@@ -31,6 +31,10 @@
   };
 
   const addedWorks = [
+    { id: '2026827235543', title: '无明春山 · 赤月 · 01', place: '无明春山', method: '场景人像', idea: '以赤月与红黑造型构成强烈的暗色人物肖像。', note: '作品集精选', kind: '作品集', orientation: 'portrait', image: 'assets/portfolio-100/2026827235543.jpg' },
+    { id: '2026827225016', title: '无明春山 · 赤焰 · 02', place: '无明春山', method: '场景人像', idea: '以俯拍角度、炽热光源和人物侧脸制造张力。', note: '作品集精选', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/2026827225016.jpg' },
+    { id: '2026827232634', title: '无明春山 · 赤焰 · 03', place: '无明春山', method: '场景人像', idea: '用手部动作和面具细节收紧画面，强化人物情绪。', note: '作品集精选', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/2026827232634.jpg' },
+    { id: '2026827234819', title: '无明春山 · 赤月 · 04', place: '无明春山', method: '场景人像', idea: '利用深色留白与侧光突出人物轮廓和服装质感。', note: '作品集精选', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/2026827234819.jpg' },
     {
       id: '2026829172233',
       title: '河西湖泊 · 金色流光全身',
