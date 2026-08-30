@@ -32,6 +32,17 @@
 
   const addedWorks = [
     {
+      id: '2026829154933',
+      title: '梦中不羡仙 · 外部 · 01',
+      place: '梦中不羡仙 · 竹林',
+      method: '场景人像',
+      idea: '以水岸、芦苇与樱花衬托人物和猫咪，保留轻松安静的相处感。',
+      note: '梦中不羡仙外部',
+      kind: '作品集',
+      orientation: 'landscape',
+      image: 'assets/portfolio-100/2026829154933.jpg'
+    },
+    {
       id: '2026829161630',
       title: '梦中不羡仙 · 竹林 · 01',
       place: '梦中不羡仙 · 竹林',
