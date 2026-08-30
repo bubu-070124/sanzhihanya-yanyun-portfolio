@@ -31,6 +31,7 @@
   };
 
   const addedWorks = [
+    { id: '20267311893', title: '个人拍着玩 · 弓箭 · 01', place: '地点待补充', method: '场景人像', idea: '保留原始横构图，突出人物、弓箭与室内光影。', note: '个人拍着玩', kind: '个人拍着玩', orientation: 'landscape', image: 'assets/portfolio-100/20267311893.jpg' },
     { id: '2026820221457', title: '江南 · 斗笠 · 01', place: '江南', method: '场景人像', idea: '以斗笠、暖墙和枝叶阴影构成江南巷间的人物小景。', note: '个人拍着玩', kind: '个人拍着玩', orientation: 'landscape', image: 'assets/portfolio-100/2026820221457.jpg' },
     { id: '2026820223216', title: '江南 · 斗笠 · 02', place: '江南', method: '场景人像', idea: '保留原始横构图，呈现竹帘、斗笠和人物姿态。', note: '个人拍着玩', kind: '个人拍着玩', orientation: 'landscape', image: 'assets/portfolio-100/2026820223216.jpg' },
     { id: '2026820224234', title: '江南 · 书页 · 01', place: '江南', method: '场景人像', idea: '以室内斜照光影和书页细节表现安静的日常场景。', note: '江南npc', kind: '个人拍着玩', orientation: 'landscape', image: 'assets/portfolio-100/2026820224234.jpg' },
