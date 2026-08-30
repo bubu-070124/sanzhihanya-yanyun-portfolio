@@ -31,6 +31,8 @@
   };
 
   const addedWorks = [
+    { id: '2026820221457', title: '江南 · 斗笠 · 01', place: '江南', method: '场景人像', idea: '以斗笠、暖墙和枝叶阴影构成江南巷间的人物小景。', note: '个人拍着玩', kind: '个人拍着玩', orientation: 'landscape', image: 'assets/portfolio-100/2026820221457.jpg' },
+    { id: '2026820223216', title: '江南 · 斗笠 · 02', place: '江南', method: '场景人像', idea: '保留原始横构图，呈现竹帘、斗笠和人物姿态。', note: '个人拍着玩', kind: '个人拍着玩', orientation: 'landscape', image: 'assets/portfolio-100/2026820223216.jpg' },
     { id: '2026820224234', title: '江南 · 书页 · 01', place: '江南', method: '场景人像', idea: '以室内斜照光影和书页细节表现安静的日常场景。', note: '江南npc', kind: '个人拍着玩', orientation: 'landscape', image: 'assets/portfolio-100/2026820224234.jpg' },
     { id: 'retouch-20260823-182315', title: '黑夜天气 · 冰蓝 · 01', place: '黑夜天气', method: '场景人像', idea: '以夜色、冰蓝光点和人物侧影营造冷冽而神秘的氛围。', note: '作品集精选', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/retouch-20260823-182315.jpg' },
     { id: '202682316625', title: '江南 · 荷叶 · 01', place: '江南', method: '场景人像', idea: '旋转为竖幅后，以荷叶、绿发与水面倒影构成清新的江南画面。', note: '作品集精选', kind: '作品集', orientation: 'portrait', image: 'assets/portfolio-100/202682316625.jpg' },
