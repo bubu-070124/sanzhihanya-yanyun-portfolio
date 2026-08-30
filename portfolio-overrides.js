@@ -32,6 +32,39 @@
 
   const addedWorks = [
     {
+      id: '2026829172233',
+      title: '方盘城废墟 · 金羽 · 01',
+      place: '河西 · 方盘城废墟',
+      method: '场景人像',
+      idea: '以金色光效、近景人物与黑白羽翼制造强烈的戏剧氛围。',
+      note: '作品集精选',
+      kind: '作品集',
+      orientation: 'landscape',
+      image: 'assets/portfolio-100/2026829172233.jpg'
+    },
+    {
+      id: '2026829171927',
+      title: '方盘城废墟 · 金羽 · 02',
+      place: '河西 · 方盘城废墟',
+      method: '场景人像',
+      idea: '竖幅近景突出人物神态、孔雀纹样与羽翼细节。',
+      note: '作品集精选',
+      kind: '作品集',
+      orientation: 'portrait',
+      image: 'assets/portfolio-100/2026829171927.jpg'
+    },
+    {
+      id: '202682917542',
+      title: '方盘城废墟 · 金羽 · 03',
+      place: '河西 · 方盘城废墟',
+      method: '场景人像',
+      idea: '人物手持发光器物，利用满画面的金色光点强化力量感。',
+      note: '作品集精选',
+      kind: '作品集',
+      orientation: 'landscape',
+      image: 'assets/portfolio-100/202682917542.jpg'
+    },
+    {
       id: '2026829154933',
       title: '梦中不羡仙 · 外部 · 01',
       place: '梦中不羡仙 · 竹林',
