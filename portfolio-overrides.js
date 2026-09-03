@@ -31,6 +31,9 @@
   };
 
   const addedWorks = [
+    { id: 'clipboard-bishuifengtao-1', title: '碧水云涛 · 樱花 · 01', place: '无界山 · 碧水云涛', method: '场景人像', idea: '以水面、樱花与粉白服饰衬托人物近景。', note: '作品集精选', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/clipboard-bishuifengtao-1.jpg' },
+    { id: 'clipboard-wuxianghuang-1', title: '无相皇镇守 · 紫夜 · 01', place: '无相皇镇守', method: '场景人像', idea: '竖幅保留紫色夜景、粉色服饰和树影层次。', note: '作品集精选', kind: '作品集', orientation: 'portrait', image: 'assets/portfolio-100/clipboard-wuxianghuang-1.jpg' },
+    { id: 'clipboard-wuxianghuang-2', title: '无相皇镇守 · 紫夜 · 02', place: '无相皇镇守', method: '场景人像', idea: '以横幅构图展示人物姿态与夜色背景。', note: '作品集精选', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/clipboard-wuxianghuang-2.jpg' },
     { id: '20260902-2118075', title: '试炼 · 郑愕 · 冰雪 · 01', place: '试炼 · 郑愕', method: '场景人像', idea: '以漫天蓝白雪景与人物坐姿营造清冷的氛围。', note: '作品集精选', kind: '作品集', orientation: 'portrait', image: 'assets/portfolio-100/20260902-2118075.jpg' },
     { id: 'retouch-20260903-093347', title: '江南 · 雨竹 · 01', place: '江南', method: '场景人像', idea: '以雨幕、竹影与人物侧影表现江南的湿润静谧。', note: '作品集精选', kind: '作品集', orientation: 'portrait', image: 'assets/portfolio-100/retouch-20260903-093347.jpg' },
     { id: '20260903-1443607', title: '江南 · 雨竹 · 02', place: '江南', method: '场景人像', idea: '取竹林间的人物近景，保留自然光线和饰物细节。', note: '作品集精选', kind: '作品集', orientation: 'portrait', image: 'assets/portfolio-100/20260903-1443607.jpg' },
