@@ -31,6 +31,8 @@
   };
 
   const addedWorks = [
+    { id: 'retouch-20260901-092529', title: '碧水云涛 · 花舟 · 01', place: '无界山 · 碧水云涛', method: '场景人像', idea: '以花舟、水面和粉色伞面衬托人物，保留明丽的江湖春景。', note: '作品集精选', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/retouch-20260901-092529.jpg' },
+    { id: 'retouch-20260901-013419', title: '无相皇镇守 · 紫夜 · 03', place: '无相皇镇守', method: '场景人像', idea: '以紫蓝夜景、树影和粉色服饰形成浓烈的色彩对比。', note: '作品集精选', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/retouch-20260901-013419.jpg' },
     { id: 'clipboard-bishuifengtao-1', title: '碧水云涛 · 樱花 · 01', place: '无界山 · 碧水云涛', method: '场景人像', idea: '以水面、樱花与粉白服饰衬托人物近景。', note: '作品集精选', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/clipboard-bishuifengtao-1.jpg' },
     { id: 'clipboard-wuxianghuang-1', title: '无相皇镇守 · 紫夜 · 01', place: '无相皇镇守', method: '场景人像', idea: '竖幅保留紫色夜景、粉色服饰和树影层次。', note: '作品集精选', kind: '作品集', orientation: 'portrait', image: 'assets/portfolio-100/clipboard-wuxianghuang-1.jpg' },
     { id: 'clipboard-wuxianghuang-2', title: '无相皇镇守 · 紫夜 · 02', place: '无相皇镇守', method: '场景人像', idea: '以横幅构图展示人物姿态与夜色背景。', note: '作品集精选', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/clipboard-wuxianghuang-2.jpg' },
