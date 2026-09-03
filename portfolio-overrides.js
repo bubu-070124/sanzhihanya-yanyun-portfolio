@@ -31,6 +31,10 @@
   };
 
   const addedWorks = [
+    { id: '20260902-2118075', title: '试炼 · 郑愕 · 冰雪 · 01', place: '试炼 · 郑愕', method: '场景人像', idea: '以漫天蓝白雪景与人物坐姿营造清冷的氛围。', note: '作品集精选', kind: '作品集', orientation: 'portrait', image: 'assets/portfolio-100/20260902-2118075.jpg' },
+    { id: 'retouch-20260903-093347', title: '江南 · 雨竹 · 01', place: '江南', method: '场景人像', idea: '以雨幕、竹影与人物侧影表现江南的湿润静谧。', note: '作品集精选', kind: '作品集', orientation: 'portrait', image: 'assets/portfolio-100/retouch-20260903-093347.jpg' },
+    { id: '20260903-1443607', title: '江南 · 雨竹 · 02', place: '江南', method: '场景人像', idea: '取竹林间的人物近景，保留自然光线和饰物细节。', note: '作品集精选', kind: '作品集', orientation: 'portrait', image: 'assets/portfolio-100/20260903-1443607.jpg' },
+    { id: 'retouch-20260903-150657', title: '江南 · 狐裘 · 01', place: '江南', method: '场景人像', idea: '以白色狐裘围住人物，突出蓝白服饰与室内暖光。', note: '作品集精选', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/retouch-20260903-150657.jpg' },
     { id: '20267311893', title: '个人拍着玩 · 弓箭 · 01', place: '地点待补充', method: '场景人像', idea: '保留原始横构图，突出人物、弓箭与室内光影。', note: '个人拍着玩', kind: '个人拍着玩', orientation: 'landscape', image: 'assets/portfolio-100/20267311893.jpg' },
     { id: '2026820221457', title: '江南 · 斗笠 · 01', place: '江南', method: '场景人像', idea: '以斗笠、暖墙和枝叶阴影构成江南巷间的人物小景。', note: '个人拍着玩', kind: '个人拍着玩', orientation: 'landscape', image: 'assets/portfolio-100/2026820221457.jpg' },
     { id: '2026820223216', title: '江南 · 斗笠 · 02', place: '江南', method: '场景人像', idea: '保留原始横构图，呈现竹帘、斗笠和人物姿态。', note: '个人拍着玩', kind: '个人拍着玩', orientation: 'landscape', image: 'assets/portfolio-100/2026820223216.jpg' },
