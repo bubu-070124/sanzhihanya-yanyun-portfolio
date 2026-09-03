@@ -31,6 +31,8 @@
   };
 
   const addedWorks = [
+    { id: 'clipboard-yelvabuli-1', title: '耶律阿不里 · 雪夜 · 01', place: '耶律阿不里', method: '场景人像', idea: '以雪夜、蓝色光点和人物半身构成冷色画面。', note: '作品集精选', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/clipboard-yelvabuli-1.jpg' },
+    { id: 'clipboard-jiangnan-1', title: '江南 · 花舟 · 01', place: '江南', method: '场景人像', idea: '以满舟花篮和水面衬托人物，呈现江南的明丽日常。', note: '作品集精选', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/clipboard-jiangnan-1.jpg' },
     { id: 'clipboard-bishuifengtao-2', title: '碧水云涛 · 花境 · 02', place: '无界山 · 碧水云涛', method: '场景人像', idea: '以粉色花境、暖光与人物坐姿营造柔和梦幻的氛围。', note: '作品集精选', kind: '作品集', orientation: 'portrait', image: 'assets/portfolio-100/clipboard-bishuifengtao-2.jpg' },
     { id: 'retouch-20260901-092529', title: '碧水云涛 · 花舟 · 01', place: '无界山 · 碧水云涛', method: '场景人像', idea: '以花舟、水面和粉色伞面衬托人物，保留明丽的江湖春景。', note: '作品集精选', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/retouch-20260901-092529.jpg' },
     { id: 'retouch-20260901-013419', title: '无相皇镇守 · 紫夜 · 03', place: '无相皇镇守', method: '场景人像', idea: '以紫蓝夜景、树影和粉色服饰形成浓烈的色彩对比。', note: '作品集精选', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/retouch-20260901-013419.jpg' },
