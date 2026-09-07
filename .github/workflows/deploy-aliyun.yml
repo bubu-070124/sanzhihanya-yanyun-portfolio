@@ -1,0 +1,64 @@
+name: Deploy to Aliyun
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-aliyun
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Build static site
+        run: node build.mjs
+
+      - name: Prepare SSH key
+        env:
+          ALIYUN_SSH_KEY: ${{ secrets.ALIYUN_SSH_KEY }}
+          ALIYUN_HOST: ${{ secrets.ALIYUN_HOST }}
+          ALIYUN_PORT: ${{ secrets.ALIYUN_PORT }}
+        run: |
+          set -euo pipefail
+          PORT="${ALIYUN_PORT:-22}"
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$ALIYUN_SSH_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -p "$PORT" -H "$ALIYUN_HOST" >> ~/.ssh/known_hosts
+
+      - name: Rsync dist to ECS
+        env:
+          HOST: ${{ secrets.ALIYUN_HOST }}
+          USER: ${{ secrets.ALIYUN_USER }}
+          PORT: ${{ secrets.ALIYUN_PORT }}
+        run: |
+          set -euo pipefail
+          PORT="${PORT:-22}"
+          rsync -az --delete \
+            -e "ssh -i ~/.ssh/deploy_key -p ${PORT} -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes" \
+            --exclude '.well-known' \
+            dist/ \
+            "${USER}@${HOST}:/var/www/portfolio/"
+
+      - name: Reload nginx
+        env:
+          HOST: ${{ secrets.ALIYUN_HOST }}
+          USER: ${{ secrets.ALIYUN_USER }}
+          PORT: ${{ secrets.ALIYUN_PORT }}
+        run: |
+          set -euo pipefail
+          PORT="${PORT:-22}"
+          ssh -i ~/.ssh/deploy_key -p "${PORT}" -o IdentitiesOnly=yes \
+            "${USER}@${HOST}" \
+            'sudo nginx -t && sudo systemctl reload nginx'
