@@ -31,6 +31,9 @@
   };
 
   const addedWorks = [
+    { id: 'wechat-liangzhou-north-1', title: '凉州北部 · 灵羊 · 01', place: '凉州（北部）', method: '场景人像', idea: '以冰雪、灵羊与人物并置，呈现凉州北部的清寒景象。', note: '坐骑小羊', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/wechat-liangzhou-north-1.jpg' },
+    { id: 'wechat-liangzhou-north-2', title: '凉州北部 · 雪夜 · 02', place: '凉州（北部）', method: '场景人像', idea: '以风雪、明月与人物剪影构成冷色的叙事画面。', note: '行苦所', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/wechat-liangzhou-north-2.jpg' },
+    { id: 'wechat-liangzhou-north-3', title: '凉州北部 · 九剑 · 03', place: '凉州（北部）', method: '场景人像', idea: '以雪地、光刃与人物近景突出技能释放的瞬间。', note: '九剑时停', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/wechat-liangzhou-north-3.jpg' },
     { id: 'wechat-liangzhou-1', title: '凉州 · 雪豹 · 01', place: '凉州', method: '场景人像', idea: '以雪原、崖壁与人物全身构图表现清冷的凉州冬景。', note: '破碎凉州玉露台北侧', kind: '作品集', orientation: 'portrait', image: 'assets/portfolio-100/wechat-liangzhou-1.jpg' },
     { id: 'wechat-liangzhou-2', title: '凉州 · 雪豹 · 02', place: '凉州', method: '场景人像', idea: '拉近人物与雪豹的距离，保留风雪中的陪伴感。', note: '破碎凉州玉露台北侧', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/wechat-liangzhou-2.jpg' },
     { id: 'wechat-bishui-3', title: '碧水云涛 · 花舟 · 03', place: '无界山 · 碧水云涛', method: '场景人像', idea: '以樱花、轻舟与水面倒影构成静谧的春日画面。', note: '作品集精选', kind: '作品集', orientation: 'portrait', image: 'assets/portfolio-100/wechat-bishui-3.jpg' },
