@@ -31,6 +31,11 @@
   };
 
   const addedWorks = [
+    { id: 'wechat-jiangnan-rain-1', title: '江南 · 荷雨 · 01', place: '江南', method: '场景人像', idea: '以雨幕、荷叶与舟上人物构成安静的江南水景。', note: '作品集精选', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/wechat-jiangnan-rain-1.jpg' },
+    { id: 'wechat-jiangnan-rain-2', title: '江南 · 荷雨 · 02', place: '江南', method: '场景人像', idea: '俯视取景保留莲叶、人物与雨水的细节。', note: '作品集精选', kind: '作品集', orientation: 'portrait', image: 'assets/portfolio-100/wechat-jiangnan-rain-2.jpg' },
+    { id: 'wechat-jiangnan-rain-3', title: '江南 · 荷雨 · 03', place: '江南', method: '场景人像', idea: '以人物近景、荷花和雨滴突出清新的色彩层次。', note: '作品集精选', kind: '作品集', orientation: 'portrait', image: 'assets/portfolio-100/wechat-jiangnan-rain-3.jpg' },
+    { id: 'wechat-jiangnan-rain-4', title: '江南 · 荷雨 · 04', place: '江南', method: '场景人像', idea: '以竹影、荷叶斗笠和人物近景营造雨中的静谧感。', note: '作品集精选', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/wechat-jiangnan-rain-4.jpg' },
+    { id: 'wechat-jiangnan-rain-5', title: '江南 · 荷雨 · 05', place: '江南', method: '场景人像', idea: '利用圆形门洞收束视线，呈现雨中庭院人物。', note: '作品集精选', kind: '作品集', orientation: 'portrait', image: 'assets/portfolio-100/wechat-jiangnan-rain-5.jpg' },
     { id: 'wechat-jiangnan-2', title: '江南 · 云栖竹径 · 03', place: '江南', method: '场景人像', idea: '以绿荫、白马与人物近景，呈现江南山径的安静氛围。', note: '云栖竹径', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/wechat-jiangnan-2.jpg' },
     { id: 'wechat-qingzhou-3', title: '青州地图 · 祈愿 · 03', place: '青州地图', method: '场景人像', idea: '以人物近景与身后的祈愿纸收紧构图，保留细节与神情。', note: '孔子像脚下', kind: '作品集', orientation: 'portrait', image: 'assets/portfolio-100/wechat-qingzhou-3.jpg' },
     { id: 'wechat-qingzhou-1', title: '青州地图 · 天一楼 · 01', place: '青州地图', method: '场景人像', idea: '以书卷屏风、暖光与人物背影营造静谧的室内场景。', note: '天一楼', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/wechat-qingzhou-1.jpg' },
