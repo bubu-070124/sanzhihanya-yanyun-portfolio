@@ -31,6 +31,7 @@
   };
 
   const addedWorks = [
+    { id: 'wechat-jiangnan-2', title: '江南 · 云栖竹径 · 03', place: '江南', method: '场景人像', idea: '以绿荫、白马与人物近景，呈现江南山径的安静氛围。', note: '云栖竹径', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/wechat-jiangnan-2.jpg' },
     { id: 'wechat-qingzhou-3', title: '青州地图 · 祈愿 · 03', place: '青州地图', method: '场景人像', idea: '以人物近景与身后的祈愿纸收紧构图，保留细节与神情。', note: '孔子像脚下', kind: '作品集', orientation: 'portrait', image: 'assets/portfolio-100/wechat-qingzhou-3.jpg' },
     { id: 'wechat-qingzhou-1', title: '青州地图 · 天一楼 · 01', place: '青州地图', method: '场景人像', idea: '以书卷屏风、暖光与人物背影营造静谧的室内场景。', note: '天一楼', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/wechat-qingzhou-1.jpg' },
     { id: 'wechat-qingzhou-2', title: '青州地图 · 祈愿 · 02', place: '青州地图', method: '场景人像', idea: '以随风的祈愿纸、人物与建筑空间形成开阔的画面。', note: '孔子像脚下', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/wechat-qingzhou-2.jpg' },
