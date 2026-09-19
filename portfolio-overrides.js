@@ -31,6 +31,11 @@
   };
 
   const addedWorks = [
+    { id: 'wechat-zheng-e-2', title: '试炼 · 郑愕 · 灵鹿 · 03', place: '试炼 · 郑愕', method: '场景人像', idea: '以冰蓝光效、灵兽与人物竖幅近景营造梦幻氛围。', note: '作品集精选', kind: '作品集', orientation: 'portrait', image: 'assets/portfolio-100/wechat-zheng-e-2.jpg' },
+    { id: 'wechat-scenic-1', title: '绝景地拍的 · 樱庭 · 01', place: '绝景地拍的', method: '场景人像', idea: '以室内樱花、卷轴与猫咪构成温柔的春日画面。', note: '作品集精选', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/wechat-scenic-1.jpg' },
+    { id: 'wechat-scenic-2', title: '绝景地拍的 · 樱庭 · 02', place: '绝景地拍的', method: '场景人像', idea: '保留落樱与静坐人物的完整室内场景。', note: '作品集精选', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/wechat-scenic-2.jpg' },
+    { id: 'wechat-scenic-3', title: '绝景地拍的 · 机巧 · 03', place: '绝景地拍的', method: '场景人像', idea: '以机巧装置、红发人物与低角度构建奇幻感。', note: '作品集精选', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/wechat-scenic-3.jpg' },
+    { id: 'wechat-scenic-4', title: '绝景地拍的 · 机巧 · 04', place: '绝景地拍的', method: '场景人像', idea: '以红蓝对照光勾勒人物近景与戏剧张力。', note: '作品集精选', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/wechat-scenic-4.jpg' },
     { id: 'wechat-jiangnan-rain-1', title: '江南 · 荷雨 · 01', place: '江南', method: '场景人像', idea: '以雨幕、荷叶与舟上人物构成安静的江南水景。', note: '作品集精选', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/wechat-jiangnan-rain-1.jpg' },
     { id: 'wechat-jiangnan-rain-2', title: '江南 · 荷雨 · 02', place: '江南', method: '场景人像', idea: '俯视取景保留莲叶、人物与雨水的细节。', note: '作品集精选', kind: '作品集', orientation: 'portrait', image: 'assets/portfolio-100/wechat-jiangnan-rain-2.jpg' },
     { id: 'wechat-jiangnan-rain-3', title: '江南 · 荷雨 · 03', place: '江南', method: '场景人像', idea: '以人物近景、荷花和雨滴突出清新的色彩层次。', note: '作品集精选', kind: '作品集', orientation: 'portrait', image: 'assets/portfolio-100/wechat-jiangnan-rain-3.jpg' },
