@@ -31,6 +31,8 @@
   };
 
   const addedWorks = [
+    { id: 'wechat-qingzhou-1', title: '青州地图 · 天一楼 · 01', place: '青州地图', method: '场景人像', idea: '以书卷屏风、暖光与人物背影营造静谧的室内场景。', note: '天一楼', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/wechat-qingzhou-1.jpg' },
+    { id: 'wechat-qingzhou-2', title: '青州地图 · 祈愿 · 02', place: '青州地图', method: '场景人像', idea: '以随风的祈愿纸、人物与建筑空间形成开阔的画面。', note: '孔子像脚下', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/wechat-qingzhou-2.jpg' },
     { id: 'wechat-liangzhou-north-1', title: '凉州北部 · 灵羊 · 01', place: '凉州（北部）', method: '场景人像', idea: '以冰雪、灵羊与人物并置，呈现凉州北部的清寒景象。', note: '坐骑小羊', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/wechat-liangzhou-north-1.jpg' },
     { id: 'wechat-liangzhou-north-2', title: '凉州北部 · 雪夜 · 02', place: '凉州（北部）', method: '场景人像', idea: '以风雪、明月与人物剪影构成冷色的叙事画面。', note: '行苦所', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/wechat-liangzhou-north-2.jpg' },
     { id: 'wechat-liangzhou-north-3', title: '凉州北部 · 九剑 · 03', place: '凉州（北部）', method: '场景人像', idea: '以雪地、光刃与人物近景突出技能释放的瞬间。', note: '九剑时停', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/wechat-liangzhou-north-3.jpg' },
