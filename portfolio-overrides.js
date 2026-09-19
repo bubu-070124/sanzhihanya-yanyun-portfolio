@@ -31,6 +31,8 @@
   };
 
   const addedWorks = [
+    { id: 'wechat-liangzhou-1', title: '凉州 · 雪豹 · 01', place: '凉州', method: '场景人像', idea: '以雪原、崖壁与人物全身构图表现清冷的凉州冬景。', note: '破碎凉州玉露台北侧', kind: '作品集', orientation: 'portrait', image: 'assets/portfolio-100/wechat-liangzhou-1.jpg' },
+    { id: 'wechat-liangzhou-2', title: '凉州 · 雪豹 · 02', place: '凉州', method: '场景人像', idea: '拉近人物与雪豹的距离，保留风雪中的陪伴感。', note: '破碎凉州玉露台北侧', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/wechat-liangzhou-2.jpg' },
     { id: 'wechat-bishui-3', title: '碧水云涛 · 花舟 · 03', place: '无界山 · 碧水云涛', method: '场景人像', idea: '以樱花、轻舟与水面倒影构成静谧的春日画面。', note: '作品集精选', kind: '作品集', orientation: 'portrait', image: 'assets/portfolio-100/wechat-bishui-3.jpg' },
     { id: 'wechat-wuxiang-3', title: '无相皇镇守 · 紫夜 · 04', place: '无相皇镇守', method: '场景人像', idea: '以紫色花影环绕人物，突出夜色中的柔和光感。', note: '作品集精选', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/wechat-wuxiang-3.jpg' },
     { id: 'wechat-palace-2', title: '皇宫地图 · 花舟 · 02', place: '皇宫地图', method: '场景人像', idea: '以巨树、轻舟与水面倒影营造明亮的园林场景。', note: '作品集精选', kind: '作品集', orientation: 'portrait', image: 'assets/portfolio-100/wechat-palace-2.jpg' },
