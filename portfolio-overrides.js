@@ -31,6 +31,12 @@
   };
 
   const addedWorks = [
+    { id: 'wechat-bishui-3', title: '碧水云涛 · 花舟 · 03', place: '无界山 · 碧水云涛', method: '场景人像', idea: '以樱花、轻舟与水面倒影构成静谧的春日画面。', note: '作品集精选', kind: '作品集', orientation: 'portrait', image: 'assets/portfolio-100/wechat-bishui-3.jpg' },
+    { id: 'wechat-wuxiang-3', title: '无相皇镇守 · 紫夜 · 04', place: '无相皇镇守', method: '场景人像', idea: '以紫色花影环绕人物，突出夜色中的柔和光感。', note: '作品集精选', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/wechat-wuxiang-3.jpg' },
+    { id: 'wechat-palace-2', title: '皇宫地图 · 花舟 · 02', place: '皇宫地图', method: '场景人像', idea: '以巨树、轻舟与水面倒影营造明亮的园林场景。', note: '作品集精选', kind: '作品集', orientation: 'portrait', image: 'assets/portfolio-100/wechat-palace-2.jpg' },
+    { id: 'wechat-palace-1', title: '皇宫地图 · 锦鲤 · 01', place: '皇宫地图', method: '场景人像', idea: '以水面锦鲤与人物俯视构图，保留明亮灵动的氛围。', note: '作品集精选', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/wechat-palace-1.jpg' },
+    { id: 'wechat-tianlu-1', title: '试炼 · 天路 · 白鹿 · 01', place: '试炼 · 天路', method: '场景人像', idea: '以白鹿、草地与人物全景构成宁静的场景画面。', note: '作品集精选', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/wechat-tianlu-1.jpg' },
+    { id: 'wechat-tianlu-2', title: '试炼 · 天路 · 白鹿 · 02', place: '试炼 · 天路', method: '场景人像', idea: '靠近人物与白鹿面部取景，强调相伴的细节。', note: '作品集精选', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/wechat-tianlu-2.jpg' },
     { id: 'wechat-zheng-e-1', title: '试炼 · 郑愕 · 月光 · 02', place: '试炼 · 郑愕', method: '场景人像', idea: '以深蓝夜色、流光与手中圆器衬托人物，营造清冷神秘的氛围。', note: '作品集精选', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/wechat-zheng-e-1.jpg' },
     { id: 'wechat-cat-1', title: '试炼 · 猫咪 · 幻蝶 · 01', place: '试炼 · 猫咪', method: '场景人像', idea: '以暗红背景、蝴蝶与璀璨光效突出人物近景。', note: '作品集精选', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/wechat-cat-1.jpg' },
     { id: 'clipboard-yelvabuli-1', title: '耶律阿不里 · 雪夜 · 01', place: '耶律阿不里', method: '场景人像', idea: '以雪夜、蓝色光点和人物半身构成冷色画面。', note: '作品集精选', kind: '作品集', orientation: 'landscape', image: 'assets/portfolio-100/clipboard-yelvabuli-1.jpg' },
